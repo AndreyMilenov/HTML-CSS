@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-family: 16px "Poppins", sans-serif;
+    max-width: 1800;
+    height: 888px;
+    height: auto;
+}
+.header {
+    font-size: large;
+    text-align: center;
+    padding: 2em;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #327DC4;
+}
+main {
+
+    display: flex;
+    margin: 0 auto;
+    padding: 0em 4em 0em 4em;
+}
+
+
+
+.section  {
+    
+    flex-basis: 32%;
+    margin: 0 auto;
+    width: 25em;
+    min-height: auto;
+    border-radius: 0.6em;
+    background-color: #819DAF;
+}
+
+.section img{
+    width: 100%;
+    border-radius: 0.6em
+}
+
+.section h3{
+    font-size: 28px;
+    padding-bottom: 0.8em;
+}
+
+.section .article{
+    padding: 1em;
+}
+
+.section p{
+    font-size: 18px;
+ padding-bottom: 1em;
+}
+
+.botton{
+    font-size: 17px;
+    text-decoration: none;
+    border: solid 1px  #fff;
+    border-radius: 1.2em;
+    padding:  0.4em 1em 0.4em 1em ;
+    
+    color: #fff;
+    background-color: #327DC4;
+}
+

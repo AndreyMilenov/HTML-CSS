@@ -1,0 +1,33 @@
+@media (width < 601px) {
+
+    header nav img {
+        display: none;
+    }
+
+    nav {
+        position: absolute;
+        top: 6em;
+        left:8em;
+    }
+
+    .our-dogs-wrapper {
+
+    width: 85%;
+    }
+
+    .our-dogs-wrapper ul li img{
+        width: 14.0em;
+        height: 14.0em;
+        padding-top: 1em;
+        
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+        
+    }
+
+  
+
+    
+}

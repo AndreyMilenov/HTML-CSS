@@ -1,0 +1,35 @@
+article.highlighted + article{
+  background-color: red;
+}
+.List > li:nth-child(2){
+   color: tomato;
+}
+section p{
+    color: lightgray;
+}
+ul {
+    list-style: none;
+}
+
+ul ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+
+.List > li {
+    font-weight: bold;
+}
+
+li.special + li a {
+    color: green;
+}
+
+h2.trigger ~ p {
+    color: navy;
+}
+a {
+    text-decoration: none;
+}
+

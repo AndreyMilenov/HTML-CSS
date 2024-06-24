@@ -1,0 +1,95 @@
+@media (width < 601px) {
+  .container a img{
+    margin-top: -60px;
+   margin-left: 220px;
+   
+  }
+ 
+
+  .hero img {
+    display: none;
+  }
+
+  .container-fluid{
+   margin-top: -15em;
+  }
+
+  .container h1 {
+    text-align: center;
+  
+  }
+
+  .hero-btns  p{
+    text-align: center;
+  
+  }
+
+  .hero-btns{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 300px;
+    
+  }
+ 
+  
+
+  .container h2{
+    text-align: center;
+  }
+  .container p{
+    text-align: center;
+  }
+
+  .row{
+     
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+  }
+  .col-sm-12{
+    max-width: 80%;
+    text-align: center;
+    
+    
+  }
+
+ 
+  .service-box{
+   
+    width: 450px;
+    align-items: flex-start;
+    margin-left: -5em;
+  }
+
+  .hero-btns {
+    margin-left: 9em;
+  }
+  .hero-btns a:last-child{
+    margin-left: -4em;
+    margin-right: 4em;
+  }
+
+  .hero-btns .contact-btn{
+    align-content: center;
+  }
+ 
+
+  .container .row .contact-nav{
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+
+  .hero-btns a:nth-child(2){
+    text-align:center;
+    margin-left: 3em;
+  }
+
+  .hero-btns.contact-btn a{
+    display: none;
+  }
+ 
+}

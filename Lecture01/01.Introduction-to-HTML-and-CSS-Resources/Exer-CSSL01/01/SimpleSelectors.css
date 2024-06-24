@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+}
+p {
+    font-size: 14px;
+}
+.highlight {
+    background-color: antiquewhite;
+}
+#main-title {
+    color: rebeccapurple;
+}
+#special-paragraph{
+    font-style: italic;
+}
+ul > li {
+    font-style: oblique;
+    color: aquamarine;
+}
+div {
+    background-color: cadetblue;
+}

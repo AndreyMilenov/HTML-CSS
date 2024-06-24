@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family :'PT Serif', 'PT Sans' ,sans-serif;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    padding: 1em 2em 1em 2em;
+    justify-content: space-between;
+    background-color: red;
+    color: aliceblue;
+}
+
+.social a i {
+    color: aliceblue;
+    font-size: 30px;
+    
+    
+}
+.social{
+    display: flex;
+    gap: 15px;
+}
+
+
+.macka{
+    background-image: url('image/fitness-main.jpg');
+    width: 100%;
+    height: 50em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ nav ul {
+    display: flex;
+    color: aliceblue;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 1em;
+    font-size: 25px;
+}
+
+nav ul li {
+    padding-left: 4em;
+}
+
+.macka .stoqn {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 6em;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0em 10em 10em 11em;
+}
+
+.stoqn h1{
+    padding-bottom: 1em;
+    font-size: 60px;
+    font-stretch: ultra-expanded;
+}
+
+
+
+button {
+
+    margin-top: 1.5em;
+    font-size: 27px;
+    padding: 0.3em 1em 0.3em 1em;
+    background-color: red;
+    border-radius: 0.3em;
+    border: 2px solid red;
+    color: aliceblue;
+}
+
+
+.main-content h2{
+    margin-top: 0.7em;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0.7em;
+}
+.line{
+   
+    height: 5px;
+    width: 150px;
+    background-color: red;
+    margin: 0 auto;
+
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+
+}
+
+.section{
+    margin-top: 2em;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.section img{
+    width: 30%;
+    padding-bottom: 2em;
+    
+}
+
+.section p{
+    padding-bottom: 1em;
+}
+
+.section {
+    padding-bottom: 7em;
+}
+
+
+
+.red{
+    color: red;
+}
+
+.coaches{
+    background-color: #eee;
+}
+
+.coaches h2{
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    text-align: center;
+    font-size: 60px;
+}
+
+.coach-menu{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 8em;
+}
+
+.coach-section {
+    margin-top: 1em;
+    width: 400px;
+    text-align: center;
+}
+.coach-section p {
+    padding-top: 1em;
+}
+
+.coach-section img {
+    border-radius: 0.3em;
+}
+
+.profetion {
+    color: red;
+}
+
+.coach-section :nth-child(2){
+    font-size: 20px;
+}
+
+footer{
+    background-color: red;
+    height: 2em;
+    text-align: center;
+    font-size: 18px;
+}
+

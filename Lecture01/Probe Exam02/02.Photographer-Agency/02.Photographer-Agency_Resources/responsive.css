@@ -1,0 +1,38 @@
+@media (width < 601px) {
+
+
+header nav ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}   
+
+
+.header-title h1{
+    font-size: 35px;
+}
+
+.header-title p{
+    font-size: 18px;
+}
+
+.choose-us ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us{
+    width: 450px;
+}
+
+.team-description-wrapper ul li img{
+   width: 100px;
+   height: auto;
+   
+}
+
+.team-description-wrapper ul {
+ gap: 4em;
+
+}
+}

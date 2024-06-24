@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap);
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  14px/1.5 "Gochi Hand",sans-serif ;
+    background-color: #E0E0E0;
+}
+
+.conteiner {
+    width: 995px;
+    height: 808px;
+    margin: 5em auto;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    border-radius: 0.9em;
+
+    
+}
+
+.article{
+    margin:2em 2em 2em 2em;
+    width: 93%;
+    height: 526px;
+    background-image: url(images/nature.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top: 1px transparent;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+}
+
+.text{
+    font-family: "Gochi Hand",sans-serif ;
+    position: absolute;
+    top:30em;
+    left:13em;
+    width: 53em;
+    height: 9em;
+    border: 1px white;
+    background-color: #F4F5F4;
+    border-radius: 0.9em;
+    text-align: center;
+}
+.text h1{
+    margin-top: 0.5em;
+    color: #333;
+}
+
+.text p{
+    color: #66666F;
+    margin-top: 0.5em;
+}
+
+.info{
+    border-top: 2px solid #CCCCCC;
+}
+.sender-info  {
+    font-family: "Gochi Hand",sans-serif ;
+    margin-top: 2em;
+    margin-left: 4em;
+    line-height: 1.8 ;
+
+}
+
+.sender-info h2{
+    color: #333333;
+}
+.sender-info p{
+    color:#66666F ;
+}

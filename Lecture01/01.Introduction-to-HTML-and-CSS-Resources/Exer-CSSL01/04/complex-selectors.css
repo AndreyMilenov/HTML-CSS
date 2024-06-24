@@ -1,0 +1,22 @@
+#first {
+    font-size: 20px;
+    font-weight: bold;
+}
+#thirt {
+    font-style: italic;
+}
+.ulche a{
+    color: rgb(5, 5, 150);
+   text-decoration: none;
+}
+.arows {
+    color: brown;
+    font-weight: bolder;
+}
+article {
+    background-color: rgb(134, 186, 202);
+}
+
+div > ul>li>img {
+    border: 10px solid red;
+}

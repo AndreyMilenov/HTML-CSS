@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клавиатура</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .keyboard {
+            display: grid;
+            grid-template-columns: repeat(15, 1fr);
+            gap: 5px;
+            background-color: #ccc;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .key {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+        .key.wide {
+            grid-column: span 2;
+        }
+        .key.extra-wide {
+            grid-column: span 3;
+        }
+        .key.space {
+            grid-column: span 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="keyboard">
+        <!-- Row 1 -->
+        <div class="key">esc</div>
+        <div class="key">f1</div>
+        <div class="key">f2</div>
+        <div class="key">f3</div>
+        <div class="key">f4</div>
+        <div class="key">f5</div>
+        <div class="key">f6</div>
+        <div class="key">f7</div>
+        <div class="key">f8</div>
+        <div class="key">f9</div>
+        <div class="key">f10</div>
+        <div class="key">f11</div>
+        <div class="key">f12</div>
+        <div class="key">f13</div>
+
+        <!-- Row 2 -->
+        <div class="key">§</div>
+        <div class="key">1</div>
+        <div class="key">2</div>
+        <div class="key">3</div>
+        <div class="key">4</div>
+        <div class="key">5</div>
+        <div class="key">6</div>
+        <div class="key">7</div>
+        <div class="key">8</div>
+        <div class="key">9</div>
+        <div class="key">0</div>
+        <div class="key">-</div>
+        <div class="key">+</div>
+        <div class="key wide">backspace</div>
+
+        <!-- Row 3 -->
+        <div class="key wide">tab</div>
+        <div class="key">q</div>
+        <div class="key">w</div>
+        <div class="key">e</div>
+        <div class="key">r</div>
+        <div class="key">t</div>
+        <div class="key">y</div>
+        <div class="key">u</div>
+        <div class="key">i</div>
+        <div class="key">o</div>
+        <div class="key">p</div>
+        <div class="key">[</div>
+        <div class="key">]</div>
+        <div class="key extra-wide">enter</div>
+
+        <!-- Row 4 -->
+        <div class="key extra-wide">caps lock</div>
+        <div class="key">a</div>
+        <div class="key">s</div>
+        <div class="key">d</div>
+        <div class="key">f</div>
+        <div class="key">g</div>
+        <div class="key">h</div>
+        <div class="key">j</div>
+        <div class="key">k</div>
+        <div class="key">l</div>
+        <div class="key">;</div>
+        <div class="key">'</div>
+        <div class="key">\\</div>
+
+        <!-- Row 5 -->
+        <div class="key extra-wide">shift</div>
+        <div class="key">`</div>
+        <div class="key">z</div>
+        <div class="key">x</div>
+        <div class="key">c</div>
+        <div class="key">v</div>
+        <div class="key">b</div>
+        <div class="key">n</div>
+        <div class="key">m</div>
+        <div class="key">,</div>
+        <div class="key">.</div>
+        <div class="key">/</div>
+        <div class="key extra-wide">shift</div>
+
+        <!-- Row 6 -->
+        <div class="key">ctrl</div>
+        <div class="key">win</div>
+        <div class="key">alt</div>
+        <div class="key space"></div>
+        <div class="key">alt</div>
+        <div class="key">win</div>
+        <div class="key">ctrl</div>
+    </div>
+</body>
+</html>
